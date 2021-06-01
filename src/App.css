@@ -67,5 +67,81 @@
     margin: 10px;
   }
 }
+/* fresh job */
 
+.doc1{
+width: 200vmax;  
+height: 70vh;
+}
+
+
+/* Online Training css */
+/* .ce{
+  text-align: center;
+  text-transform: capitalize;
+  font-family: proxima-semibold;
+  margin: 50px 15px 0;
+  font-size: 28px;
+  color: #333;
+  font-style: normal;
+  font-weight: 500;
+}
+.cee{
+  font-family: proxima-semibold;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #666;
+  margin-left: 16px;
+  margin-right: 16px;
+  box-sizing: border-box;
+}
+
+.conti{
   
+  font-family: proxima-semibold;
+  font-style: normal;
+  text-align: center;
+  font-weight: 100;
+  font-size: 15px;
+  min-height: 36px;
+  margin: 0 10px 10px;
+  line-height: 32px;
+  color: #666;
+  
+}
+
+.conti .row .col-sm .card .card-img-top{
+  height: 146px;
+  width: 260px;
+  margin-left: 3rem;
+}
+.conti .row .col-sm .card{
+  height: 310px;
+  width: 334px;
+  
+  
+}
+.conti .row .col-sm .card .card-body h5{
+  font-size: 18px;
+
+}
+.conti .row .col-sm .card .card-body p{
+  
+  display: block;
+     margin-block-start: 1em; 
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 0px;
+}
+.conti .row {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 4rem;
+}
+
+.conti .row .col-sm .card .card-body .card-text p{
+  text-align:start !important;
+  margin-left:0 !important;
+} */

@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar,Nav, NavDropdown ,Form,FormControl,Button, Container , Row ,Col} from 'react-bootstrap';
 import MainForm from "./MainForm";
 import BG from "../img/bg.jpg";
+import WorkFromHome from './WorkFromHome'
 
 function Programming() {
   return (
@@ -24,7 +25,7 @@ function Programming() {
     <div className="col-md-5">
         <MainForm/>
     </div>
-    
+    <WorkFromHome/>
     
 </Row>
 

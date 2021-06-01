@@ -1,4 +1,4 @@
-@extend display-flex;
+/* @extend display-flex; */
 display-flex,
 .display-flex,
 .display-flex-center,
@@ -10,7 +10,7 @@ display-flex,
   display: -webkit-flex;
 }
 
-@extend list-type-ulli;
+/* @extend list-type-ulli; */
 list-type-ulli,
 .socials {
   list-style-type: none;
@@ -279,10 +279,10 @@ body {
   margin-bottom: 25px;
   overflow: hidden;
 }
-/* 
+
 .form-group:last-child {
   margin-bottom: 0px;
-} */
+}
 
 input {
   width: 100%;
@@ -292,8 +292,8 @@ input {
   padding: 6px 30px;
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
-}
-/* 
+ }
+ 
 input::-webkit-input-placeholder {
   color: #999;
 }
@@ -328,22 +328,22 @@ input:focus:-ms-input-placeholder {
 
 input:focus:-moz-placeholder {
   color: #222;
-} */
+} 
 
-/* input[type="checkbox"]:not(old) {
+ input[type="checkbox"]:not(old) {
   width: 2em;
   margin: 0;
   padding: 0;
   font-size: 1em;
   display: none;
-} */
+} 
 
-/* input[type="checkbox"]:not(old) + label {
+input[type="checkbox"]:not(old) + label {
   display: inline-block;
   line-height: 1.5em;
   margin-top: 6px;
-} */
-/* 
+} 
+
 input[type="checkbox"]:not(old) + label > span {
   display: inline-block;
   width: 13px;
@@ -363,17 +363,17 @@ input[type="checkbox"]:not(old) + label > span {
   background-image: -webkit-linear-gradient(white, white);
   background-image: linear-gradient(white, white);
   vertical-align: bottom;
-} */
+} 
 
-/* input[type="checkbox"]:not(old):checked + label > span {
+ input[type="checkbox"]:not(old):checked + label > span {
   background-image: -moz-linear-gradient(white, white);
   background-image: -ms-linear-gradient(white, white);
   background-image: -o-linear-gradient(white, white);
   background-image: -webkit-linear-gradient(white, white);
   background-image: linear-gradient(white, white);
-} */
+} 
 
-/* input[type="checkbox"]:not(old):checked + label > span:before {
+ input[type="checkbox"]:not(old):checked + label > span:before {
   content: "\f26b";
   display: block;
   color: #222;
@@ -382,38 +382,29 @@ input[type="checkbox"]:not(old) + label > span {
   text-align: center;
   font-family: "Material-Design-Iconic-Font";
   font-weight: bold;
-} */
+} 
 
 .agree-term {
   display: inline-block;
   width: auto;
 }
 
-/* label {
-  position: absolute;
+ /* label {
+  position: static;
   left: 0px;
-  top: 20%;
-  transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
+  top: 50%;
+  transform: translateY(-50%); 
+   -moz-transform: translateY(-50%); 
+ -webkit-transform: translateY(-50%); 
+   -o-transform: translateY(-50%); 
+   -ms-transform: translateY(-50%);
   color: #222;
-} */
-.label-has-error {
-  top: 22%;
-}
+}   */
 
-/* label.error {
-  position: relative;
-  background: url("../images/unchecked.gif") no-repeat;
-  background-position-y: 3px;
-  padding-left: 20px;
-  display: block;
-  margin-top: 20px;
-} */
 
-/* label.valid {
+
+ 
+ label.valid {
   display: block;
   position: absolute;
   right: 0;
@@ -422,9 +413,9 @@ input[type="checkbox"]:not(old) + label > span {
   width: 20px;
   height: 20px;
   background: transparent;
-}  */
-/* 
-/* label.valid:after {
+}   
+ 
+ label.valid:after {
   font-family: "Material-Design-Iconic-Font";
   content: "\f269";
   width: 100%;
@@ -463,15 +454,15 @@ input[type="checkbox"]:not(old) + label > span {
   margin-top: 80px;
 } */
 
-/* .social-label {
+ .social-label {
   display: inline-block;
   margin-right: 15px;
-} */
+} 
 
-/* .socials li {
+ .socials li {
   padding: 5px;
-} */
-/* 
+} 
+
 .socials li:last-child {
   margin-right: 0px;
 }
@@ -534,7 +525,7 @@ input[type="checkbox"]:not(old) + label > span {
 }
 
 /* for secret page  */
-/* 
+
 .emp-profile {
   padding: 3%;
   margin-top: 3%;
@@ -570,7 +561,7 @@ input[type="checkbox"]:not(old) + label > span {
 }
 .profile-head h6 {
   color: #0062cc;
-/* } *
+ } 
 .profile-edit-btn {
   border: none;
   border-radius: 1.5rem;
@@ -604,8 +595,8 @@ input[type="checkbox"]:not(old) + label > span {
 .profile-work {
   padding: 14%;
   margin-top: -15%;
-} */
-/* .profile-work p {
+} 
+ .profile-work p {
   font-size: 12px;
   color: #818182;
   
@@ -619,24 +610,24 @@ input[type="checkbox"]:not(old) + label > span {
 }
 .profile-work ul {
   list-style: none;
-} */
+} 
 
-/* 
 
-@media screen and (max-width: 1200px) {
+
+/* @media screen and (max-width: 1200px) { */
   .container {
     width: calc(100% - 30px);
     max-width: 100%;
-  }
-/* } *
+  }  
+ 
 
-@media screen and (min-width: 1024px) {
+ @media screen and (min-width: 1024px) {
   .container {
     max-width: 1200px;
   }
-} */
+}  
 
-@media screen and (max-width: 768px) {
+ /* @media screen and (max-width: 768px) { */
   .signup-content,
   .signin-content {
     flex-direction: column;
@@ -649,13 +640,13 @@ input[type="checkbox"]:not(old) + label > span {
     -webkit-justify-content: center;
     -o-justify-content: center;
     -ms-justify-content: center;
-  }
+  } 
 
   .signup-form {
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 0px;
-    /* box-sizing: border-box; */
+     box-sizing: border-box; 
     padding: 0 30px;
   }
 
@@ -706,7 +697,7 @@ input[type="checkbox"]:not(old) + label > span {
   .about-info {
     margin: 40px 0;
   }
-}
+
 
 @media screen and (max-width: 400px) {
   .social-login {
@@ -723,16 +714,16 @@ input[type="checkbox"]:not(old) + label > span {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
-/* 
+
+
 .navbar-light .navbar-nav .nav-link {
   padding: 0 20px;
   color: rgba(0, 0, 0, 0.5);
-} */
+} 
 
-/* .home-page {
-   */
-  /* height: 90vh;
+ .home-page {
+   
+   height: 90vh;
   background-image: linear-gradient(90deg, #ecf0ff 50%, #fff 50%);
   display: flex;
   justify-content: center;
@@ -817,8 +808,8 @@ input[type="checkbox"]:not(old) + label > span {
 
 .contact_form_inputs {
   margin-bottom: 30px;
-} */
-/* 
+}
+
 .input_field {
   width: calc((100% - 60px) / 3);
   height: 50px;
@@ -904,9 +895,9 @@ input[type="checkbox"]:not(old) + label > span {
   outline: none;
   cursor: pointer;
   margin-top: 24px;
-} */
+} 
 
-/* .panel {
+ .panel {
   width: 100%;
   height: 50px;
   background: #fafafa;
@@ -982,15 +973,15 @@ input[type="checkbox"]:not(old) + label > span {
     font-weight: 500;
     font-size: 25px;
   }
-} */
-/* 
+} 
+
 @media only screen and (max-width: 575px) {
   .contact_submit_button {
     font-size: 13px;
     padding-left: 25px;
     padding-right: 25px;
   }
-}  */
+}  
 
 /* 404 error page not found style  */
 
