@@ -1,6 +1,7 @@
 import React from 'react'
 import { Carousel,Card,Button } from 'react-bootstrap'
 // import "./node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./Footer"
 
 
 function OnlineTrainings() {
@@ -973,7 +974,7 @@ function OnlineTrainings() {
         </div>
 
 {/* Eight row card  */}
-<h2 className="cee">Specializations we offer</h2>
+<h2 className="ce">Specializations we offer</h2>
 
 
 <div id="courses-container">
@@ -1077,7 +1078,7 @@ function OnlineTrainings() {
           </div>
           </div>
         </div>
-
+        <Footer/>
 </div>
 
 

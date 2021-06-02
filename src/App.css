@@ -332,3 +332,39 @@ height: 70vh;
   background-position: center;
   cursor: pointer;
 } */
+  /* Online Training css */ 
+  .ce{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: proxima-semibold;
+    margin: 50px 15px 0;
+    font-size: 28px;
+    color: #333;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .cee{
+    font-family: proxima-semibold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #666;
+    margin-left: 16px;
+    margin-right: 16px;
+    box-sizing: border-box;
+  }
+  
+  .conti{
+    
+    font-family: proxima-semibold;
+    font-style: normal;
+    text-align: center;
+    font-weight: 100;
+    font-size: 15px;
+    min-height: 36px;
+    margin: 0 10px 10px;
+    line-height: 32px;
+    color: #666;
+    
+  }
