@@ -2,7 +2,7 @@ import React from 'react';
 import CompanyLogo from "../img/companyLogo.png";
 import { Card} from 'react-bootstrap';
 
-function MainCard() {
+function MainCard(props) {
    
         return(
       
@@ -10,7 +10,7 @@ function MainCard() {
     
         <Card className="p-3 my-3">
         <div className="d-flex justify-content-between align-items-center">
-            <Card.Title className="w-50">Skill Fest: Learn in-demand skills and win cash rewards worth ₹ 9 Lacs!</Card.Title>
+            <Card.Title className="w-50">{props.title}</Card.Title>
      )
 
             <img src={CompanyLogo} style={{ height: 100, width: 100 }} />

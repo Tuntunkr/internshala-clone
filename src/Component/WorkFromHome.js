@@ -1,9 +1,11 @@
 import React from 'react';
 import { Card, Form, Row, Dropdown, DropdownButton, InputGroup } from 'react-bootstrap';
 import "../App.css";
+import titleData from './titleData';
 import MainCard from './MainCard';
 
 function Search() {
+    const titledataComponent = titleData.map(maincard => <MainCard key={maincard.id} title={maincard.title} />)
     return (
         <div className='container99'>
             <Row className="mainContainer">
@@ -64,58 +66,8 @@ function Search() {
                             
                         </DropdownButton> */}
                     </div>
-                    <div style={{ height: "85vh", overflow: "auto", }}>
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
-                        <MainCard />
+                    <div style={{ height: "85vh", overflow: "auto" }}>
+                        {titledataComponent}
                     </div>
                 </div>
             </Row>
