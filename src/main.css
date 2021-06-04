@@ -1,4 +1,4 @@
-@extend display-flex;
+/* @extend display-flex; */
 display-flex,
 .display-flex,
 .display-flex-center,
@@ -10,8 +10,8 @@ display-flex,
   display: -webkit-flex;
 }
 
-@extend list-type-ulli;
-list-type-ulli,
+/* @extend list-type-ulli; */
+/* list-type-ulli, */
 .socials {
   list-style-type: none;
   margin: 0;
@@ -389,7 +389,7 @@ input[type="checkbox"]:not(old) + label > span {
   width: auto;
 }
 
-/* label {
+ .signup .signup-content label {
   position: absolute;
   left: 0px;
   top: 20%;
@@ -399,7 +399,7 @@ input[type="checkbox"]:not(old) + label > span {
   -o-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   color: #222;
-} */
+}  
 .label-has-error {
   top: 22%;
 }

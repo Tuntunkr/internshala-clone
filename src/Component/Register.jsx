@@ -48,7 +48,7 @@ function Register() {
                                 <label htmlFor="cpassword">
                                 <i className="zmdi zmdi-lock material-icons-name"></i>
                                 </label>
-                            <input type="password" name="password" id="password" autoComplete="off" placeholder ="Confirm  Your password" />
+                            <input type="password" name="password" id="c-password" autoComplete="off" placeholder ="Confirm  Your password" />
                             </div>
                            <div className="form-group from-button">
                                <input type="submit" name="register" id="register" className="form-submit" 
@@ -95,11 +95,11 @@ function userSignup(e){
         email:document.getElementById('email').value,
         phone:document.getElementById('phone').value,
         work:document.getElementById('work').value,
-        password:'pswd',
-        cpassword:'pswd'
+        password:document.getElementById('password').value,
+        cpassword:document.getElementById('c-password').value
     }
 console.log(data)
-    axios.post('http://localhost:3006/register',data)
+    axios.post('http://localhost:5001/Register',data)
     .then(res=>{
         alert('User register successful')
         // return <Redirect to='/Login'/>;

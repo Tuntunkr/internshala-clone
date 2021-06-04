@@ -72,11 +72,11 @@ function userSignin(e){
   
         email:document.getElementById('email').value,
 
-        password:'pswd',
-        cpassword:'pswd'
+        password:document.getElementById('password').value,
+
     }
 console.log(data)
-    axios.post('http://localhost:3006/signin',data)
+    axios.post('http://localhost:5001/signin',data)
     .then(res=>[
         alert('User signin successful')
     ])

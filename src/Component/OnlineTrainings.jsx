@@ -1014,7 +1014,7 @@ function OnlineTrainings() {
                 </div>
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/images.jpeg" alt="Web Development" />

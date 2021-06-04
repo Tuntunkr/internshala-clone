@@ -4,7 +4,7 @@ const express = require("express");
 const app=express();
 
 //congfig
-dotenv.config({path:'./config.env'});
+dotenv.config();
  
 const PORT = process.env.PORT
 // database connect
