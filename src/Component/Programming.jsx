@@ -25,7 +25,7 @@ function Programming() {
     <div className="col-md-5">
         <MainForm/>
     </div>
-    <WorkFromHome/>
+    {/* <WorkFromHome/> */}
     
 </Row>
 

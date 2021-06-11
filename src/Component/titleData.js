@@ -1,7 +1,7 @@
 const titleData = [
     {
         id:1,
-        title:"Starting from 9L per Annum"
+        title:"Starting from 9L per AnnumSkill Fest: Learn in-demand skills and win cash rewards worth ₹ 9 Lacs!"
     },
     {
         id:2,

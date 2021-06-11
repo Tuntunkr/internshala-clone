@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar,Nav, Form,FormControl,Button, Container , Row ,Col,Jumbotron} from 'react-bootstrap';
-import Job from './Job'
+import Job from "./Job"
 
 
 function MainForm() {
@@ -57,8 +57,8 @@ function MainForm() {
                </Button>
                
       </Form>
-      {/* <Jumbotron><h1>What's in it for you?</h1></Jumbotron> */}
-     <job/>
+     
+     
       </>
      
       

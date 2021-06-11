@@ -368,3 +368,76 @@ height: 70vh;
     color: #666;
     
   }
+/* Card css  */
+
+.logo_container{
+  
+  background: #FF8C00;
+    border-radius: 12px 0 0 12px;
+    color: #fff;
+    padding: 4px 23px;
+    height: 24px;
+    margin-left: 16px;
+    flex-shrink: 0;
+
+}
+#internships_list_container
+#reference #list_container #marketing_first_container
+.individual_internship .internship_meta
+.individual_internship_details .price_with_icons{
+  display: flex;
+  flex-wrap: wrap;
+}
+#internships_list_container
+#internships_list_container #reference #list_container #marketing_first_container .individual_internship .internship_meta .individual_internship_details .sub_heading_less_margin {
+    margin-bottom: 12px;
+}
+#internships_list_container #reference #list_container #marketing_first_container .individual_internship .internship_meta .individual_internship_details .sub_heading_less_margin {
+  margin-bottom: 12px;
+}
+.body-main sub_heading_less_margin price_with_icon{
+  display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+    
+    box-sizing: border-box;
+    color: #484848;
+}
+.body-main{
+  font-size: 14px;
+    line-height: 1.57142857;
+    font-weight: 400;
+}
+
+
+.price_with_icons_item{
+  
+   
+    text-align: left; 
+    font-family: 'Inter var',sans-serif;
+    display: flex;
+    margin-right: 16px;
+    margin-top: 12px;
+    font-family: Inter,sans-serif;
+    font-weight: 500;
+}
+
+.sub_heading timer_container{
+  margin-bottom: 12px;
+  font-size: 14px;
+    line-height: 1.57142857;
+    font-weight: 400;
+    --scrollbar-width: 17px;
+}
+#internships_list_container #reference #list_container #marketing_first_container .individual_internship .internship_meta .individual_internship_details .timer_container i 
+ 
+.ic-16-clock{
+  margin-right: 4px;
+  font-size: 14px;
+}
+.body-main {
+  font-size: 14px;
+  display: block;
+  line-height: 1.57142857;
+  font-weight: 400;
+}

@@ -995,7 +995,7 @@ function OnlineTrainings() {
                                 <div className="course-block-footer-treatment">
                                     <div className="duration-view">
                                         Duration:
-                                        6                                                    weeks
+                                        6 weeks
                                     </div>
                                     <div className="know-more-button">
                                         <div className="underline-animate">
@@ -1014,7 +1014,7 @@ function OnlineTrainings() {
                 </div>
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/programming">
+                    <a href="">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/images.jpeg" alt="Web Development" />
