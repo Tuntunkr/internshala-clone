@@ -42,7 +42,7 @@ function OnlineTrainings() {
             <div className="slider">
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/web.jpg" alt="Web Development" />
@@ -73,7 +73,7 @@ function OnlineTrainings() {
                 </div>
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/Programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/digital-marketing.jpg" alt="Web Development" />
@@ -104,7 +104,7 @@ function OnlineTrainings() {
                 </div>   
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/autocad.jpg" alt="Web Development" />
@@ -145,7 +145,7 @@ function OnlineTrainings() {
             <div className="slider">
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/hacking.jpg" alt="Web Development" />
@@ -176,7 +176,7 @@ function OnlineTrainings() {
                 </div>
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/java.jpg" alt="Web Development" />
@@ -207,7 +207,7 @@ function OnlineTrainings() {
                 </div>   
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/react.jpg" alt="Web Development" />
@@ -248,7 +248,7 @@ function OnlineTrainings() {
             <div className="slider">
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/how-to-startup.jpg" alt="Web Development" />
@@ -279,7 +279,7 @@ function OnlineTrainings() {
                 </div>
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/digital-marketing.jpg" alt="Web Development" />
@@ -310,7 +310,7 @@ function OnlineTrainings() {
                 </div>   
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/tally.jpg" alt="Web Development" />
@@ -351,7 +351,7 @@ function OnlineTrainings() {
             <div className="slider">
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/autocad.jpg" alt="Web Development" />
@@ -382,7 +382,7 @@ function OnlineTrainings() {
                 </div>
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/autocad-3D.jpg" alt="Web Development" />
@@ -413,7 +413,7 @@ function OnlineTrainings() {
                 </div>   
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/solidworks.jpg" alt="Web Development" />
@@ -455,7 +455,7 @@ function OnlineTrainings() {
             <div className="slider">
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/machine-learning.jpg" alt="Web Development" />
@@ -486,7 +486,7 @@ function OnlineTrainings() {
                 </div>
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/data-science.jpg" alt="Web Development" />
@@ -517,7 +517,7 @@ function OnlineTrainings() {
                 </div>   
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/tableau.jpg" alt="Web Development" />
@@ -563,7 +563,7 @@ function OnlineTrainings() {
             <div className="slider">
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/graphic-design.jpg" alt="Web Development" />
@@ -594,7 +594,7 @@ function OnlineTrainings() {
                 </div>
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/ui-ux-design.jpg" alt="Web Development" />
@@ -625,7 +625,7 @@ function OnlineTrainings() {
                 </div>   
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/video-editing.jpg" alt="Web Development" />
@@ -667,7 +667,7 @@ function OnlineTrainings() {
             <div className="slider">
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/Crative Writing.jpg" alt="Web Development" />
@@ -698,7 +698,7 @@ function OnlineTrainings() {
                 </div>
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/guitar.jpg" alt="Web Development" />
@@ -729,7 +729,7 @@ function OnlineTrainings() {
                 </div>   
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/photography.jpg" alt="Web Development" />
@@ -773,7 +773,7 @@ function OnlineTrainings() {
             <div className="slider">
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/french.jpg" alt="Web Development" />
@@ -804,7 +804,7 @@ function OnlineTrainings() {
                 </div>
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/business.jpg" alt="Web Development" />
@@ -835,7 +835,7 @@ function OnlineTrainings() {
                 </div>   
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/ppt.jpg" alt="Web Development" />
@@ -877,7 +877,7 @@ function OnlineTrainings() {
             <div className="slider">
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/how-to-ace-.jpg" alt="Web Development" />
@@ -908,7 +908,7 @@ function OnlineTrainings() {
                 </div>
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/autocad.jpg" alt="Web Development" />
@@ -939,7 +939,7 @@ function OnlineTrainings() {
                 </div>   
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/autocad-3D.jpg" alt="Web Development" />
@@ -983,7 +983,7 @@ function OnlineTrainings() {
             <div className="slider">
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="/web-development-training/?tracking_source=trainings-cards">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/wondering.png" alt="Web Development" />
@@ -1014,7 +1014,7 @@ function OnlineTrainings() {
                 </div>
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    <a href="">
+                    <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/images.jpeg" alt="Web Development" />
@@ -1045,7 +1045,7 @@ function OnlineTrainings() {
                 </div>   
                 <div className="slider-item " style={{left:61 +"px"}}>
                     
-                    {/* <a href="/web-development-training/?tracking_source=trainings-cards">
+                    {/* <a href="/programming">
                         <div className="course-card">
                                                                                                                                                     <div class="course-image">
                                 <img className="img-responsive" src="img/autocad-3D.jpg" alt="Web Development" />

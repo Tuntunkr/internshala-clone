@@ -416,10 +416,12 @@ height: 70vh;
     text-align: left; 
     font-family: 'Inter var',sans-serif;
     display: flex;
+    width: 300px;
     margin-right: 16px;
     margin-top: 12px;
     font-family: Inter,sans-serif;
     font-weight: 500;
+    flex-direction: row;
 }
 
 .sub_heading timer_container{
@@ -429,11 +431,15 @@ height: 70vh;
     font-weight: 400;
     --scrollbar-width: 17px;
 }
-#internships_list_container #reference #list_container #marketing_first_container .individual_internship .internship_meta .individual_internship_details .timer_container i 
+.timer flex-row{
+  margin-bottom: 12px;
+  text-align: center;
+}
  
 .ic-16-clock{
   margin-right: 4px;
   font-size: 14px;
+  color: #8a8a8a;
 }
 .body-main {
   font-size: 14px;
@@ -441,3 +447,5 @@ height: 70vh;
   line-height: 1.57142857;
   font-weight: 400;
 }
+ 
+

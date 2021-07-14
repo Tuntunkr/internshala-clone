@@ -10,6 +10,8 @@ import WorkFromHome from './Component/WorkFromHome';
 import MainForm from './Component/MainForm'
 import MainCard from './Component/MainCard'
 import Programming from './Component/Programming'
+// import App1 from './App1'
+
 
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
   return (
    <>
    <Navbar/>
+   {/* <App1/> */}
     <Switch>
     <Route exact  path = "/" component ={Internships}/>
     <Route exact path="/OnlineTrainings" component ={OnlineTrainings} />
@@ -30,7 +33,7 @@ function App() {
     <Route exact path="/MainCard" component={MainCard} />
     <Route exact path='/Programming' component={Programming} />
 
-    
+   
 
     </Switch>
     

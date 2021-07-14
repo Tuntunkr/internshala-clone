@@ -1,0 +1,38 @@
+.searchcontainer {
+  border: 1px solid gray;
+  padding: 5px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.search {
+  line-height: 60px;
+  width: 100%;
+  outline: none;
+  border: none;
+  line-height: 16px;
+  font-size: 14px;
+  padding-left: 11px;
+  height: 10px;
+  text-decoration: none;
+}
+
+.search:focus {
+  border: none !important;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+hr {
+  border-top: 1px solid rgba(216, 216, 216, 0.753);
+}
+.from {
+  text-align: center;
+}

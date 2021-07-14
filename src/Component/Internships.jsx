@@ -1,7 +1,7 @@
 import React from 'react'
 import { Jumbotron ,Carousel} from 'react-bootstrap'
 import Flexbox from './Flexbox'
-import Search from './Search'
+// import Search1 from './Search1'
 import programming from "./city/programming.svg"
 import digital_marketing from "./city/digital_marketing.svg"
 import web_development from "./city/web_development.svg"
@@ -14,12 +14,14 @@ import dream from "./city/dream.svg"
 import verified from "./city/verified.svg"
 import Footer from "./Footer"
 import '../main.css';
+import App1 from './Search/App1'
+import './Search/App1.css'
 
 function Internships() {
     return (
         <>
       
-        <Search />
+        <App1/>
      
         <Carousel>
         <Carousel.Item>
@@ -127,21 +129,21 @@ function Internships() {
                     <div class="img">
                         <img src={ctc} alt="ctc" />
                     </div>
-                    <div class="text">CTC</div>
+                    <div class="text">Minimum CTC of 3 LPA</div>
                     </a> 
 
                     <a class="dream" href="">
                     <div class="img">
                         <img src={dream} alt="dream" />
                     </div>
-                    <div class="text">Dream</div>
+                    <div class="text">Dream companies </div>
                     </a> 
 
                     <a class="verified" href="">
                     <div class="img">
                         <img src={verified} alt="verified" />
                     </div>
-                    <div class="text">Verified</div>
+                    <div class="text"> 100 % Verified jobs</div>
                     </a> 
         </div>
 
