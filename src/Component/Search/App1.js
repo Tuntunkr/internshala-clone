@@ -7,18 +7,12 @@ function App1() {
   const [modalisOpen, setModalIsOpen] = useState(false);
   const ProgLang = ["MBA","Media","Law","Humanities","Architecture","Sales","Mechanical Engineering","Chemical Engineering","ASP.NET Development","Ruby on Rails","Science,Design","Electronics Engineering" ,"Computer Science","IOS App Developmment","PHP Developmment","Python/Django Developmment","Front End Developmment","Full Stack Developmment","Informaton Technology","Engineering","Civil Engineering","Javascript Development","Biotechnology Engineering","Metallugical Engineering","Navan Architecture and Ocean Engineering","Physics","Angular.js Development","Node.js Development","Subject Matter Expert(SME)","Journalism","Film Meking","Digital Marketing","Social Media Marketing","Marketing","Backend Development","Video Marketing/Editing","Merket Business/Research","Social Work","Blockchain Develoment","UI/Ux Design","Creative Writing","Biology","Public Relations(PR)","Database Building","Web Development","Mobile App Development","Automobile Engineering","Content Writing","Copywriting","software Development","Software Testing","Wordpress Development","Photography","Psychology","Analytics","Customer Service"];
   return (
-    <div className="App">
-      <input
-        onFocus={() => setModalIsOpen(true)}
-        type="text"
-        className="container"
-        placeholder="What are you looking for?"
-      />
+    <div id="search_bar">
+        <div class="input-group has_cross_and_button" id="search">
+            <input onFocus={()=>setModalIsOpen(true)} type="text" class="form-control focus-visible" placeholder="What are you looking for?" id="" autocomplete="off" aria-invalid="false" data-focus-visible-added=""/>
+            <span class="input-group-btn search_btn_container"><button class="btn btn-input btn-primary" type="button"><i class="icon_search ic-24-search" onFocus={()=>setModalIsOpen(true)}></i>search</button></span>
+        </div>
 
-      <button className="cont1" onClick={() => setModalIsOpen(true)}>
-        search
-      </button>
-      {/* <AutoComplete/> */}
 
       <Modal
         isOpen={modalisOpen}
