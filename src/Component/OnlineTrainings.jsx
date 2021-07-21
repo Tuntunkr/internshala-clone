@@ -1,6 +1,5 @@
 import React from 'react'
-import { Carousel,Card,Button } from 'react-bootstrap'
-// import "./node_modules/bootstrap/dist/css/bootstrap.min.css";
+import { Carousel } from 'react-bootstrap'
 import Footer from "./Footer"
 
 
@@ -8,7 +7,7 @@ function OnlineTrainings() {
   return (
     <div className="ceter">
     
-       {/* <img src="img/img4.png"  className="doc1" alt="fresh job"></img> */}
+    
        <Carousel fade className="training">
   <Carousel.Item>
     <img

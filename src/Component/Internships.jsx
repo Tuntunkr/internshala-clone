@@ -1,7 +1,6 @@
 import React from 'react'
 import { Jumbotron ,Carousel} from 'react-bootstrap'
 import Flexbox from './Flexbox'
-// import Search1 from './Search1'
 import programming from "./city/programming.svg"
 import digital_marketing from "./city/digital_marketing.svg"
 import web_development from "./city/web_development.svg"

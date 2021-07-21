@@ -1,16 +1,16 @@
-import {Route, Switch} from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import FresherJobs from './Component/FresherJobs';
 import Internships from './Component/Internships';
 import Login from './Component/Login';
-import Navbar from './Component/Navbar';
+import Navbar1 from './Component/Navbar1';
 import OnlineTrainings from './Component/OnlineTrainings';
 import Register from './Component/Register';
 import WorkFromHome from './Component/WorkFromHome';
 import MainForm from './Component/MainForm'
 import MainCard from './Component/MainCard'
 import Programming from './Component/Programming'
-// import App1 from './App1'
+
 
 
 
@@ -20,8 +20,8 @@ function App() {
  
   return (
    <>
-   <Navbar/>
-   {/* <App1/> */}
+   <Navbar1/>
+   
     <Switch>
     <Route exact  path = "/" component ={Internships}/>
     <Route exact path="/OnlineTrainings" component ={OnlineTrainings} />
